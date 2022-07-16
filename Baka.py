@@ -1,6 +1,6 @@
 import pyautogui , time
 time.sleep(10)
-f = open ("sampletext",'r')
+f = open ("onichan",'r')
 
 for word in f:
   pyautogui.typewrite(word)
